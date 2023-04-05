@@ -3,9 +3,18 @@
 }
 
 @font-face {
-  font-family: 'Roboto';
-  src: url('./assets/fonts/Roboto-Regular.woff2') format('woff2'),
-    url('./assets/fonts/Roboto-Regular.woff') format('woff');
+  font-family: 'Manrope';
+  src: url('../assets/fonts/Manrope-Regular.woff2') format('woff2'),
+    url('../assets/fonts/Manrope-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PlayfairDisplay';
+  src: url('../assets/fonts/PlayfairDisplay-Regular.woff2') format('woff2'),
+    url('../assets/fonts/PlayfairDisplay-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -17,7 +26,7 @@ html {
 }
 
 body {
-  font-family: 'Roboto', Helvetica, sans-serif;
+  font-family: 'Manrope', Helvetica, sans-serif;
   font-weight: normal;
   font-style: normal;
   font-size: 1.6rem;
